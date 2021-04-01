@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My web page </title>
+  <script type="text/javascript" >
+  	
+  	if (event.keyCode == 37) {
+function myKeyDown() {
+var element = document.getElementById('circle');
+var positionLeft = element.offsetLeft;
+element.style.left = parseInt(positionLeft) - 10 + 'px';
+}
+function myLoadEvent() {
+document.addEventListener('keydown', myKeyDown);
+}
+document.addEventListener('DOMContentLoaded', myLoadEvent);
+}
+  </script>
+</head>
+ <body>
+ 
+<button type="button" id="circle"> button</button> 
+
+
+      </body>
+</html>

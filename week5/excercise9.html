@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My web page </title>
+  <script type="text/javascript" >
+  	
+  	function myKeyDown(event) {
+if (event.keyCode == 37) {
+setInterval(moveLeft, 10);
+}
+if (event.keyCode == 38) {
+setInterval(moveUp, 10);
+}
+if (event.keyCode == 40) {
+setInterval(moveDown, 10);
+}
+if (event.keyCode == 39) {
+setInterval(moveRight, 10);
+}
+}
+function myLoadEvent() {
+document.addEventListener('keydown', myKeyDown);
+}
+document.addEventListener('DOMContentLoaded',
+  </script>
+</head>
+ <body>
+ 
+<button type="button" id="circle"> button</button> 
+
+
+      </body>
+</html>
