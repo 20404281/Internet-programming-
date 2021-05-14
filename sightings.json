@@ -1,0 +1,18 @@
+{
+	var text = "sightings": [
+		{
+			"id": 1,
+			"animal": "Cat",
+			"number": 3,
+			"location": "UK",
+			"date": "16-04-2021",
+			"time": "12:00:00",
+			"observor": {
+				"name": "Muhammad Faizan Malik",
+				"email": "m.fiximalik411@gmail.com"				
+			},
+			"observations": "I have cat. My cat color is whtie.",
+		}
+
+	]
+}
